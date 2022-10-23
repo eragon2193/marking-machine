@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/marking-machine/static/css/main.d3146417.css",
+    "main.js": "/marking-machine/static/js/main.a568577c.js",
+    "index.html": "/marking-machine/index.html",
+    "main.d3146417.css.map": "/marking-machine/static/css/main.d3146417.css.map",
+    "main.a568577c.js.map": "/marking-machine/static/js/main.a568577c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d3146417.css",
+    "static/js/main.a568577c.js"
+  ]
+}
