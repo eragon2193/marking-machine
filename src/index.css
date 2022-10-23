@@ -9,8 +9,15 @@ body {
 }
 
 code {
+  line-height:30px;
+  padding:6px;
+  background-color: rgb(66, 160, 165, 0.4);
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+blockquote{
+  border-left: 5px gray solid;
+  padding:5px 20px;
 }
 #editor-div{
   font-size: 20px;
@@ -35,8 +42,14 @@ code {
 #editor{
 margin: 20px;
 margin-top:0;
-width: 600px;
-height: 120px;
+width:600px;
+height: 170px;
+}
+#max-editor{
+margin: 20px;
+margin-top:0;
+width:600px;
+height: 60vw;
 }
 .header-text {
   text-align:center;
@@ -50,14 +63,18 @@ height: 120px;
   width:1000px;
   height:fit-content;
   margin:auto;
-  background-color: aquamarine;
+  background-color: rgb(127,255,212, 0.6);
+}
+#min-preview-div
+{
+  display:none;
 }
 #preview-header{
   display:flex;
   align-items: center;
   justify-content: center;
   border:2px solid black;
-  background-color:yellowgreen;
+  background-color:skyblue;
   width:997px;
   font-size:40px;
   height:50px;
@@ -65,4 +82,15 @@ height: 120px;
 }
 #preview {
   margin: 5px 15px;
+}
+.arrow-icons {
+  width:60%;
+  height:30px;
+  margin-left:35%;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#icon {
+  cursor: pointer;
 }
